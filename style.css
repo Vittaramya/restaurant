@@ -1,0 +1,469 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+    
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+    font-family: poppins;
+}
+/*Button style*/
+.button{
+    border: rgb(81, 81, 133);
+    background: linear-gradient(to right, rgb(94, 196, 182), #666666 );
+    padding: 2 rem;
+    color: rgb(206, 15, 133);
+    border-radius: 30px;
+    font-weight: bold;
+    font-family: poppins;
+    width: 50%;
+    height:auto;
+    text-transform: uppercase;
+    margin: 2vh 0;
+    margin-top: -3rem;
+    margin-left: 1.5rem;
+}
+
+.padding2{
+    padding: 2rem;
+
+}
+.heading3{
+    color: #ce419f;
+    font-size: 2rem;
+
+}
+a{
+    text-decoration: none;
+    color: rgb(71, 59, 177);
+}
+header{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+
+}
+header h1{
+    align-items: center;
+    justify-content: center;
+    color: blueviolet;
+    padding: 2rem;
+    margin-left: -2rem;
+
+}
+header .sub-menu{
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    flex-direction: column;
+    align-items: center;
+
+
+}
+header .sub-menu img{
+    height: 1rem;
+
+}
+
+header ul {
+    display: flex;
+    list-style: none;
+    align-items: center;
+    justify-content: space-between;
+    width: 50%;
+    margin-top: 1vh;
+    padding-top:-2.5rem;
+    margin-left: 0.5rem;
+    
+}
+
+
+/*SECTION ONE CSS*/
+
+.one .left h1{
+    color: #be3944;
+    font-size: 1rem;
+    margin-top: -2rem;
+}
+.one .left h3{
+    font-weight: lighter;
+    font-size: 1rem;
+}
+.one .left .feature{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin: 2vh 0;
+    padding-left: 0.5rem;
+}
+.one .left .feature img{
+    height:1.5rem;
+}
+.one .left .feature p{
+    font-size: 0.7rem;
+    margin-left: 2rem;
+    padding-left: 0.5rem;
+}
+.one .right{
+    position: relative;
+}
+.one .right .img{
+    width: 100%;
+    height: auto;
+}
+.foreground{
+    position: absolute;
+    background-image: linear-gradient(to top, #fbc2eb 0%, #a6c1ee 100%);
+    border-radius: 80%;
+    height:10rem;
+    width:auto;
+    top:0;
+    z-index: -1;
+    margin-left: 2rem;
+    margin-bottom: 5rem;
+}
+.one .right .foreground{
+    position: absolute;
+    top: 3rem;
+    
+    z-index: -1;
+
+}
+
+.two .left{
+    position: relative;
+}
+.two .left img{
+    height: auto;
+    width: 100%;
+}
+.two .left .foreground{
+    width: 50%;
+    left: 10%;
+    margin-top: 17rem;
+    border-radius: 92%;
+}
+.two .right{
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    font-size: x-small;
+    padding-top: 30rem;
+    font-weight:medium;
+}
+.two .right p{
+    padding-bottom: 4rem;
+}
+
+.three{
+    text-align: center;
+
+}
+
+.three .offers .offer {
+    height: 30vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+.three .offers .offer img{
+    height: auto;
+    width: 20%;
+    margin:auto;
+    padding-top: -2rem;
+}
+.three .offers .offer h6{
+    font-size:  2rem;
+}
+
+.four{
+    text-align: center;
+}
+.four .foods .food:hover{
+    background: #565656;
+    color: aliceblue;
+}
+.four .foods .food button:hover{
+    background: wheat;
+    color: black;
+    outline: none;
+}
+
+.four .foods .food{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+    margin: 1rem 0;
+    border: 1px solid #666666;
+    border-radius: 16px;
+    padding: 0.5rem;
+
+}
+.four .foods .food img{
+    width: 50%;
+    height: auto;
+
+}
+.four .foods .food button{
+    width: 50%;
+}
+
+.four .foods .food span{
+    color: #7a2424;
+}
+
+.four .foods .food .price{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    margin-top: 4vh ;
+}
+footer{
+    height: 40vh;
+}
+
+footer .special-offer{
+    padding: 2rem;
+    text-align: center;
+}
+
+footer .special-offer h4{
+    font-size: 1.6rem;
+}
+footer .special-offer .input{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+footer .special-offer .input input{
+    padding: 0.8rem;
+    margin-top: 3vh;
+    width: 80%;
+    border-radius: 30px;
+    border: 1px solid #666666
+}
+footer .details{
+    background-image: linear-gradient(120deg, #f6d365 0%, #fda085 100%);
+    text-align: center;
+}
+footer .details .detail ul{
+    list-style: none;
+
+}
+footer .details .detail h4{
+    color: white;
+
+}
+footer .details .detail{
+    margin: 2vh 0;
+}
+footer .details h1{
+    padding-top: 3vh;
+}
+
+
+
+/*Media queries*/
+@media screen and (min-width:700px){
+    header .sub-menu{
+        display: flex;
+        flex-direction: row;
+    }
+.one .left h1{
+    font-size: 3rem;
+
+}
+.one .left h3{
+    font-size: 1.2rem;
+    width: 70%;
+    line-height: 2rem;
+}
+.one .left .button{
+    width: 2 rem;
+    height: 2rem ;
+    margin: 4vh 0;
+}
+.one .left .features{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+.one .right .foreground{
+    max-width: 50%;
+    margin-left: 30%;
+
+}
+.two .left img{
+    height: auto;
+    width: 100%;
+}
+
+.two .left .foreground{
+    width: 30%;
+    
+}
+.three{
+    background: url('./assets/8.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 60vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.three .offers{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin: 5vh 0;
+}
+.four .foods{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 1rem;
+}
+footer .details .boxes{
+    grid-template-columns: repeat(4, 1fr);
+}
+}
+/*laptops and devices*/
+@media screen and (min-width:1200px){
+    header{
+        display: flex;
+        flex-direction: row;
+        width: 55%;
+        height: 15vh;
+        align-items: center;
+        margin-left: 2rem;
+    }
+    .one{
+        display: grid;
+        grid-template-columns: 40% auto;
+        position: relative;
+    }
+    .one .left .features{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        position: absolute;
+        width: 60%;
+
+    }
+    .one .right .foreground{
+        position: absolute;
+        top: -30%;
+        height: 22rem;
+        width: 25rem;
+        margin-top: -22rem;
+        margin-left: 50rem;
+    }
+
+
+    .two{
+    display: grid;
+    grid-template-columns: 60% auto;
+    height: 100vh;
+    align-items: center;
+    }
+    .two .left .foreground{
+        margin-top: -8rem;
+    }
+    .two .right{
+        margin-top: -27rem;
+    }
+    .three{
+        margin-top: -10rem;
+        height: 92vh;
+        background-size: cover;
+    }
+    .three .offers{
+        width: 70%;
+        margin: 5vh auto;
+       
+    }
+    .four{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        height: 100vh;
+        margin-top: -5rem;
+        padding-left: -2rem;
+       
+    }
+    .four .button-all-button{
+        width: 20%;
+        height: 2rem;
+        align-self: center;
+        justify-content: center;
+    }
+
+    .four .foods{
+        margin-left: 6rem;
+        grid-template-columns: repeat(4, 1fr);
+        
+    }
+    footer{
+        position: relative;
+        display: grid;
+        margin-top: 20vh;
+    
+    }
+    footer .special-offer{
+        width: 75%;
+        margin: auto;
+        padding-top: 2rem;
+        border: 1px solid #666666;
+        border-radius: 50px;
+        position: absolute;
+        top:-30%;
+        justify-self: center;
+        background: white;
+        background-image: url('./assets/5.png');
+        background-size:cover;
+    
+    }
+    footer .special-offer .input{
+        display: flex;
+        flex-direction: row;
+        width: 60%;
+        align-items: center;
+        margin: auto;
+        margin-top: 2rem;
+    }
+    footer .special-offer .input input{
+        border: none;
+    }
+    footer .details{
+        height: 60vh;
+        display: grid;
+        grid-template-columns: 25% auto;
+        align-items: center;
+        margin-top: 5rem;
+        
+    }
+    footer .boxes{
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        
+    }
+    footer .special-offer .input .footer-button{
+        height: 2rem;
+        margin-top: 1.8rem;
+    }
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
